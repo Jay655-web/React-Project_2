@@ -127,8 +127,120 @@ h1 {
 
 
 body{
-  background-color: linear-gradient(135deg, rgb(57, 69, 124), rgb(25, 29, 51));
+  /* background-color: linear-gradient(135deg, rgb(57, 69, 124), rgb(25, 29, 51)); */
+  background-color: #282D35;
   font-family: 'Inter', sans-serif;
   height: 100vh;
   margin: 0;
+  line-height: 100%;
+}
+
+.nav-bar{
+  width: 100%;
+  height: 91px;
+  background-color: #21222A;
+  /* border: 2px solid white; */
+  display: flex;   
+  align-items: center;
+  padding-left: 30px;
+
+}
+
+.react-img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.title{
+  color:#61DAFB;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -5%;
+
+}
+
+.main-con{
+  width: 100%;
+  padding-left: 45px;
+  padding-top: 30px;
+  color: white;
+}
+
+.main-con h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.main-con ul{
+  font-size: 400;
+}
+
+.main-con li{
+  margin-bottom: 13px;
+  margin-left: -5px;
+}
+
+.main-con li::marker{
+  color: #61DAFB;
+}
+
+.react-my{
+  width: 250px;
+  height: 222px;
+  position: sticky;
+  transform: translate(32%, -50%);
+  bottom: 50%;
+  top: 50%;
+  left: 100%;
+}
+
+.react-my .vector1{
+  width: 75px;
+  height: 75px;
+  background-color: #33373E;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}
+
+.react-my .vector2{
+  width: 130px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+  background-color: transparent;
+  border: 12px solid #33373E;
+  border-radius: 50%;
+
+}
+
+.react-my .vector3{
+  width: 130px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  background-color: transparent;
+  border: 12px solid #33373E;
+  border-radius: 50%;
+
+}
+
+.react-my .vector4{
+  width: 130px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  background-color: transparent;
+  border: 12px solid #33373E;
+  border-radius: 50%;
+
 }

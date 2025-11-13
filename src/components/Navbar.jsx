@@ -1,7 +1,8 @@
 export default function Navbar(){
     return(
-        <nav>
-            <h1>Navbar goes here</h1>
+        <nav className="nav-bar">
+            <img src="/src/assets/react.svg" alt="React Logo" className="react-img" />
+            <span className="title">ReactFacts</span>
         </nav>
     )
 }
