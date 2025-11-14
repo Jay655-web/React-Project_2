@@ -1,12 +1,10 @@
-import Navbar from "./components/Navbar.jsx";
-import MainCon from "./components/Main.jsx";
+import Header from "./Components/Header.jsx";
 import "./index.css";
 
 export default function App(){
     return(
         <>
-            < Navbar />
-            < MainCon />
+            <Header />
         </>
     )
 }
