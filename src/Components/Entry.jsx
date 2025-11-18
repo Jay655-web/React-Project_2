@@ -1,7 +1,7 @@
 
 export default function Entry(){
     return(
-        <div className="entry">
+        <article className="entry">
             <img src="src\assets\Rectangle 77.png" alt="An Image of Mount Fuji" />
             <div className="entry_1">
                 <div className="entry_location">
@@ -19,6 +19,6 @@ export default function Entry(){
                     for both Japanese and foreign tourists.
                 </p>
             </div>
-        </div>
+        </article>
     )
 }
